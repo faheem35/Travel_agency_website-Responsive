@@ -1,0 +1,394 @@
+/* Responsive styling */
+
+
+
+@media (max-width: 1370px) {
+   .navbar a {
+      font-size: 1.1rem;
+      text-decoration: none;
+      font-weight: 600;
+      margin: 0px 1rem;
+      color: rgb(3, 3, 3);
+      font-family: "Poppins", "Rubik", "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+   }
+
+   .home-h1 {
+      font-size: 60px;
+   }
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+
+   /* navbar collapse */
+   .navbar {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: rgb(172, 129, 10);
+
+      display: none;
+   }
+
+   #check:checked~.navbar {
+      display: block;
+
+   }
+
+
+   .navbar a {
+      display: block;
+      text-align: center;
+      font-size: 1.2rem;
+      margin: 1.5rem 0px;
+      color: white;
+      font-weight: 300;
+
+   }
+
+   .icons {
+      display: flex;
+   }
+
+   #closeIcon {
+      display: none;
+   }
+
+   #check:checked~.icons #menuIcon {
+      display: none;
+   }
+
+   #check:checked~.icons #closeIcon {
+      display: flex;
+   }
+
+   .home {
+      grid-template-columns: repeat(2, 1fr);
+      text-align: center;
+      
+   }
+
+   .home-h1 {
+      font-size: 50px;
+   }
+
+   .home-h3 {
+      font-size: 22px;
+   }
+
+   .home-para {
+      font-size: 17px;
+   }
+
+   .btn-home {
+      justify-content: center;
+      max-width: 100%;
+      text-align: center;
+   }
+
+
+   .service-cards {
+
+      grid-template-columns: repeat(2, 1fr);
+
+
+   }
+
+   .card-container {
+
+      grid-template-columns: 1fr;
+      justify-items: center;
+      align-items: center;
+
+   }
+
+   .card-d {
+      border-radius: 20px;
+      text-align: center;
+
+      width: 100%;
+
+   }
+
+   .booking {
+
+      grid-template-columns: 1fr;
+      
+   }
+
+   .testimonials {
+      grid-template-columns: 1fr;
+   }
+
+
+   .org-comment,
+   .dummy-comment {
+      width: 90%;
+      /* Make comments take up more width */
+      position: relative;
+      /* Remove absolute positioning */
+      margin: 0 auto;
+      /* Center comments */
+      height: auto;
+      /* Allow height to adjust based on content */
+   }
+
+   .man-icon {
+      left: 20px;
+      bottom: 180px;
+   }
+
+   .circle-icon {
+      max-width: 40%;
+      margin: 10px auto;
+   }
+
+   .testi-content h1 {
+      font-size: 36px;
+   }
+
+   .testi-content h4 {
+      font-size: 16px;
+   }
+
+   .brands {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+   }
+
+   .footer-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+   }
+
+   .brand-name-sec h1 {
+
+      font-size: 80px;
+      font-weight: 500;
+
+   }
+
+   .brand-name-sec p {
+      margin-top: 15px;
+      font-size: 28px;
+
+   }
+
+   .info h1 {
+      font-size: 35px;
+   }
+
+   li {
+      font-size: 25px;
+   }
+
+   .icon-style {
+      font-size: 40px;
+
+   }
+
+   .social-media h3 {
+      font-size: 30px;
+   }
+
+   .play-app-stores img {
+      width: 150px;
+   }
+
+   .copyright {
+      font-size: 20px;
+   }
+
+   .booking-head h4 {
+      font-size: 25px;
+   }
+
+   .testi-content h4 {
+      font-size: 25px;
+   }
+
+   .brands {
+      justify-items: center;
+      align-items: center;
+
+   }
+
+   #colab-spcl {
+      margin-left: 100%;
+   }
+
+   .brand-name-sec h1 {
+
+      font-size: 40px;
+
+   }
+
+}
+
+
+/* For screens below 768px (mobile) */
+@media (max-width: 768px) {
+
+
+
+   .home {
+      grid-template-columns: 1fr;
+      padding-left: 0;
+      
+   }
+
+   .home-h1 {
+      font-size: 59px;
+      margin-right: 21px;
+   }
+
+   .home-h3 {
+      font-size: 30px;
+      margin-right: 21px;
+   }
+
+   .home-para {
+      font-size: 23px;
+      color: black;
+      margin-right: 21px;
+   }
+
+   .home-content {
+      margin-right: 20px;
+   }
+
+   .btn-home {
+      margin-top: 5%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 5%;
+
+   }
+
+   .home-btn {
+      font-size: 25px;
+      padding: 10px;
+
+   }
+
+   .fa-play {
+      font-size: 18px;
+      padding: 8px;
+   }
+
+   .home-img {
+      margin-right: 25px;
+   }
+
+   .slide-head h1 {
+      font-size: 30px;
+   }
+
+   .service-cards {
+
+      grid-template-columns: 1fr;
+
+   }
+
+   .card {
+      font-size: 25px;
+   }
+
+   .brands {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+   }
+
+   .brand-name-sec h1 {
+
+      font-size: 40px;
+   }
+
+   
+
+   .home p {
+      font-size: 15px;
+      text-align: center;
+      
+      margin-top: 5%;
+   }
+
+   .booking-head h1{
+      font-size: 25px;
+      margin-bottom: 10%;
+   }
+
+}
+
+
+
+/* For screens below 480px (small mobile) */
+@media (max-width: 480px) {
+   .home h1 {
+      font-size: 35px;
+   }
+
+   .home h3 {
+      font-size: 20px;
+   }
+
+   .home p {
+      font-size: 15px;
+
+      font-weight: 500;
+   }
+
+   .home-btn {
+      font-size: 15px;
+      margin-bottom: 10px;
+      
+   }
+
+   .fa-play {
+      font-size: 26px;
+      padding: 10px;
+   }
+
+   .a-dec {
+      font-size: 20px;
+      color: black;
+      font-weight: 600;
+   }
+
+   .slide-head h1 {
+      font-size: 25px;
+   }
+
+   .home-h1 {
+      font-size: 30px;
+      text-align: center;
+   }
+
+   .home-h3 {
+      font-size: 20px;
+      text-align: center;
+   }
+
+   .home p {
+      font-size: 15px;
+      text-align: center;
+      
+      margin-top: 5%;
+   }
+
+   .booking-head h1{
+      font-size: 25px;
+      margin-bottom: 10%;
+   }
+
+   .sub-box p{
+      font-size: 20px;
+     
+   }
+}
